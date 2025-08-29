@@ -1,13 +1,11 @@
 
-	</td>
-</tr>
-			<tr bgcolor=596f62>
-			<td colspan=2 align=right>
-			<font color=#fff><b>Design and Developed by: Ayan Diwan</b></font>
-			</td>
-			</tr>
-			
-			
-			</table>	
-		</body>
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">© 2024-AIT Ved Rathod</span>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
