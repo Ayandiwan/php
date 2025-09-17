@@ -1,6 +1,10 @@
 <?php
 
-$conn=mysqli_connect("127.0.0.1","root","","ayanexample")or die("connection problam");
+$server="localhost";
+$user="root";
+$pass="";
+$database="ad";
 
+$conn=mysqli_connect($server,$user,$pass,$database)or die("connection problam");
 
 ?>

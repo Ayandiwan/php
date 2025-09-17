@@ -1,5 +1,8 @@
 <?php
-session_destroy();
-setcookie("uname","fff",time()-3);
-header("Location:login.php");
+include"sequrity.php";
+	session_start();
+	
+	setcookie("uname","00",time()-8);
+	session_destroy();
+	header("Location:login.php");	
 ?>
